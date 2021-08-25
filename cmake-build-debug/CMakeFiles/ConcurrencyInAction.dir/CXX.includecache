@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp
+thread
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/thread
+utility
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/utility
+iostream
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/iostream
+vector
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/vector
+
