@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
+  "CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
   "ConcurrencyInAction"
   "ConcurrencyInAction.pdb"
 )

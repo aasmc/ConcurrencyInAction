@@ -85,6 +85,15 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/hierarchical_mutex.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/thread_safe_stack.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

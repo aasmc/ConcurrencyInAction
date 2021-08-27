@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

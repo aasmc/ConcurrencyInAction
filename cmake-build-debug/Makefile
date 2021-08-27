@@ -153,6 +153,30 @@ chapter02/examples.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.s
 .PHONY : chapter02/examples.cpp.s
 
+chapter03/examples_ch03.o: chapter03/examples_ch03.cpp.o
+.PHONY : chapter03/examples_ch03.o
+
+# target to build an object file
+chapter03/examples_ch03.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o
+.PHONY : chapter03/examples_ch03.cpp.o
+
+chapter03/examples_ch03.i: chapter03/examples_ch03.cpp.i
+.PHONY : chapter03/examples_ch03.i
+
+# target to preprocess a source file
+chapter03/examples_ch03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.i
+.PHONY : chapter03/examples_ch03.cpp.i
+
+chapter03/examples_ch03.s: chapter03/examples_ch03.cpp.s
+.PHONY : chapter03/examples_ch03.s
+
+# target to generate assembly for a file
+chapter03/examples_ch03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
+.PHONY : chapter03/examples_ch03.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... chapter02/examples.o"
 	@echo "... chapter02/examples.i"
 	@echo "... chapter02/examples.s"
+	@echo "... chapter03/examples_ch03.o"
+	@echo "... chapter03/examples_ch03.i"
+	@echo "... chapter03/examples_ch03.s"
 .PHONY : help
 
 

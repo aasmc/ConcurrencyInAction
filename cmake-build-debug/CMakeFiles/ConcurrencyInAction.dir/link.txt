@@ -1,1 +1,1 @@
-/bin/c++  -pthread -g CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o -o ConcurrencyInAction 
+/bin/c++  -pthread -g CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o -o ConcurrencyInAction 
