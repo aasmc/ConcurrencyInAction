@@ -94,6 +94,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/thread_safe_stack.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/thread_safe_queue.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
