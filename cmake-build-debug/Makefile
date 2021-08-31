@@ -177,6 +177,54 @@ chapter03/examples_ch03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
 .PHONY : chapter03/examples_ch03.cpp.s
 
+chapter04/examples.o: chapter04/examples.cpp.o
+.PHONY : chapter04/examples.o
+
+# target to build an object file
+chapter04/examples.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o
+.PHONY : chapter04/examples.cpp.o
+
+chapter04/examples.i: chapter04/examples.cpp.i
+.PHONY : chapter04/examples.i
+
+# target to preprocess a source file
+chapter04/examples.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i
+.PHONY : chapter04/examples.cpp.i
+
+chapter04/examples.s: chapter04/examples.cpp.s
+.PHONY : chapter04/examples.s
+
+# target to generate assembly for a file
+chapter04/examples.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s
+.PHONY : chapter04/examples.cpp.s
+
+chapter04/quick_sort_examples.o: chapter04/quick_sort_examples.cpp.o
+.PHONY : chapter04/quick_sort_examples.o
+
+# target to build an object file
+chapter04/quick_sort_examples.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o
+.PHONY : chapter04/quick_sort_examples.cpp.o
+
+chapter04/quick_sort_examples.i: chapter04/quick_sort_examples.cpp.i
+.PHONY : chapter04/quick_sort_examples.i
+
+# target to preprocess a source file
+chapter04/quick_sort_examples.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i
+.PHONY : chapter04/quick_sort_examples.cpp.i
+
+chapter04/quick_sort_examples.s: chapter04/quick_sort_examples.cpp.s
+.PHONY : chapter04/quick_sort_examples.s
+
+# target to generate assembly for a file
+chapter04/quick_sort_examples.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s
+.PHONY : chapter04/quick_sort_examples.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +240,12 @@ help:
 	@echo "... chapter03/examples_ch03.o"
 	@echo "... chapter03/examples_ch03.i"
 	@echo "... chapter03/examples_ch03.s"
+	@echo "... chapter04/examples.o"
+	@echo "... chapter04/examples.i"
+	@echo "... chapter04/examples.s"
+	@echo "... chapter04/quick_sort_examples.o"
+	@echo "... chapter04/quick_sort_examples.i"
+	@echo "... chapter04/quick_sort_examples.s"
 .PHONY : help
 
 

@@ -3,3 +3,9 @@
 
 CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o: \
  ../chapter02/examples.cpp
+CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o: \
+ ../chapter03/examples_ch03.cpp
+CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: \
+ ../chapter04/examples.cpp
+CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: \
+ ../chapter04/quick_sort_examples.cpp

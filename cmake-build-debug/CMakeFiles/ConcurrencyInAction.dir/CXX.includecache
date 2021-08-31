@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp
+numeric
+-
 thread
 /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/thread
 utility
@@ -15,4 +17,6 @@ iostream
 /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/iostream
 vector
 /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/vector
+algorithm
+/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/algorithm
 

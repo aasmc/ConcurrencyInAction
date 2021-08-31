@@ -92,19 +92,49 @@ CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s"
 	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
 
+CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: ../chapter04/examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: ../chapter04/quick_sort_examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s
+
 # Object files for target ConcurrencyInAction
 ConcurrencyInAction_OBJECTS = \
 "CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o" \
-"CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
+"CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
 
 # External object files for target ConcurrencyInAction
 ConcurrencyInAction_EXTERNAL_OBJECTS =
 
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/build.make
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ConcurrencyInAction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ConcurrencyInAction"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConcurrencyInAction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -192,7 +192,7 @@ T parallelAccumulate(Iterator first, Iterator last, T init) {
 }
 
 
-int mainChapter2() {
+int main() {
     f();
     g();
 }

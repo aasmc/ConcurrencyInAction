@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
   "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
