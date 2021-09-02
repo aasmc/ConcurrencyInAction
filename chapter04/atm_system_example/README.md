@@ -10,5 +10,6 @@ One way to handle everything would be to split the code into three independent t
 
 One way to model the ATM logic would be as a state machine. In each state, the thread waits for an acceptable message, which it then processes. This may result in transitioning to a new state, and the cycle continues. The states involved in a simple implementation are shown in figure 4.3. In this simplified implementation, the system waits for a card to be inserted. Once the card is inserted, it then waits for the user to enter their PIN, one digit at a time. They can delete the last digit entered. Once enough digits have been entered, the PIN is verified. If the PIN is not OK, you’re fin- ished, so you return the card to the customer and resume waiting for someone to enter their card. If the PIN is OK, you wait for them to either cancel the transaction or select an amount to withdraw. If they cancel, you’re finished, and you return their card. If they select an amount, you wait for confirmation from the bank before issuing the cash and returning the card or displaying an “insufficient funds” message and returning their card. Obviously, a real ATM is considerably more complex, but this is enough to illustrate the idea.
 
-![Atm state machine] (chapter04/atm_system_example/ATM_state_machine.png)
+![atm_state_machine](chapter04/atm_system_example/ATM_state_machine.png?raw=true)
+
 
