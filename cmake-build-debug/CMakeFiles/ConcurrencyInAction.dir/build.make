@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aleksas/CLionProjects/ConcurrencyInAction
+CMAKE_SOURCE_DIR = /Users/aasmc/CLionProjects/ConcurrencyInAction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConcurrencyInAction.dir/depend.make
@@ -68,62 +68,160 @@ include CMakeFiles/ConcurrencyInAction.dir/flags.make
 
 CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
 CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o: ../chapter02/examples.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp
 
 CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.i
 
 CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.s
 
 CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
 CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o: ../chapter03/examples_ch03.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp
 
 CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.i
 
 CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
 CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: ../chapter04/examples.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.i
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.s
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
 CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: ../chapter04/quick_sort_examples.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o -c /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.i
 
 CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o: ../chapter04/atm_system_example/sender.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o: ../chapter04/atm_system_example/receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o: ../chapter04/atm_system_example/dispatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o: ../chapter04/atm_system_example/atm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o: ../chapter04/atm_system_example/bank_machine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o: ../chapter04/atm_system_example/interface_machine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.s
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o: CMakeFiles/ConcurrencyInAction.dir/flags.make
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o: ../chapter04/atm_system_example/driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o -c /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp > CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.i
+
+CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp -o CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.s
 
 # Object files for target ConcurrencyInAction
 ConcurrencyInAction_OBJECTS = \
 "CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o" \
 "CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o" \
 "CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o" \
-"CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o" \
+"CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o"
 
 # External object files for target ConcurrencyInAction
 ConcurrencyInAction_EXTERNAL_OBJECTS =
@@ -132,9 +230,16 @@ ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o
+ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/build.make
 ConcurrencyInAction: CMakeFiles/ConcurrencyInAction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ConcurrencyInAction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ConcurrencyInAction"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ConcurrencyInAction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +251,6 @@ CMakeFiles/ConcurrencyInAction.dir/clean:
 .PHONY : CMakeFiles/ConcurrencyInAction.dir/clean
 
 CMakeFiles/ConcurrencyInAction.dir/depend:
-	cd /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aleksas/CLionProjects/ConcurrencyInAction /home/aleksas/CLionProjects/ConcurrencyInAction /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/aasmc/CLionProjects/ConcurrencyInAction /Users/aasmc/CLionProjects/ConcurrencyInAction /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ConcurrencyInAction.dir/depend
 

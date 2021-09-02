@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aleksas/CLionProjects/ConcurrencyInAction
+CMAKE_SOURCE_DIR = /Users/aasmc/CLionProjects/ConcurrencyInAction
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-d
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -78,7 +78,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,174 @@ chapter03/examples_ch03.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.s
 .PHONY : chapter03/examples_ch03.cpp.s
 
+chapter04/atm_system_example/atm.o: chapter04/atm_system_example/atm.cpp.o
+.PHONY : chapter04/atm_system_example/atm.o
+
+# target to build an object file
+chapter04/atm_system_example/atm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o
+.PHONY : chapter04/atm_system_example/atm.cpp.o
+
+chapter04/atm_system_example/atm.i: chapter04/atm_system_example/atm.cpp.i
+.PHONY : chapter04/atm_system_example/atm.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/atm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.i
+.PHONY : chapter04/atm_system_example/atm.cpp.i
+
+chapter04/atm_system_example/atm.s: chapter04/atm_system_example/atm.cpp.s
+.PHONY : chapter04/atm_system_example/atm.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/atm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.s
+.PHONY : chapter04/atm_system_example/atm.cpp.s
+
+chapter04/atm_system_example/bank_machine.o: chapter04/atm_system_example/bank_machine.cpp.o
+.PHONY : chapter04/atm_system_example/bank_machine.o
+
+# target to build an object file
+chapter04/atm_system_example/bank_machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o
+.PHONY : chapter04/atm_system_example/bank_machine.cpp.o
+
+chapter04/atm_system_example/bank_machine.i: chapter04/atm_system_example/bank_machine.cpp.i
+.PHONY : chapter04/atm_system_example/bank_machine.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/bank_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.i
+.PHONY : chapter04/atm_system_example/bank_machine.cpp.i
+
+chapter04/atm_system_example/bank_machine.s: chapter04/atm_system_example/bank_machine.cpp.s
+.PHONY : chapter04/atm_system_example/bank_machine.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/bank_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.s
+.PHONY : chapter04/atm_system_example/bank_machine.cpp.s
+
+chapter04/atm_system_example/dispatcher.o: chapter04/atm_system_example/dispatcher.cpp.o
+.PHONY : chapter04/atm_system_example/dispatcher.o
+
+# target to build an object file
+chapter04/atm_system_example/dispatcher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o
+.PHONY : chapter04/atm_system_example/dispatcher.cpp.o
+
+chapter04/atm_system_example/dispatcher.i: chapter04/atm_system_example/dispatcher.cpp.i
+.PHONY : chapter04/atm_system_example/dispatcher.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/dispatcher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.i
+.PHONY : chapter04/atm_system_example/dispatcher.cpp.i
+
+chapter04/atm_system_example/dispatcher.s: chapter04/atm_system_example/dispatcher.cpp.s
+.PHONY : chapter04/atm_system_example/dispatcher.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/dispatcher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.s
+.PHONY : chapter04/atm_system_example/dispatcher.cpp.s
+
+chapter04/atm_system_example/driver.o: chapter04/atm_system_example/driver.cpp.o
+.PHONY : chapter04/atm_system_example/driver.o
+
+# target to build an object file
+chapter04/atm_system_example/driver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o
+.PHONY : chapter04/atm_system_example/driver.cpp.o
+
+chapter04/atm_system_example/driver.i: chapter04/atm_system_example/driver.cpp.i
+.PHONY : chapter04/atm_system_example/driver.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/driver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.i
+.PHONY : chapter04/atm_system_example/driver.cpp.i
+
+chapter04/atm_system_example/driver.s: chapter04/atm_system_example/driver.cpp.s
+.PHONY : chapter04/atm_system_example/driver.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/driver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.s
+.PHONY : chapter04/atm_system_example/driver.cpp.s
+
+chapter04/atm_system_example/interface_machine.o: chapter04/atm_system_example/interface_machine.cpp.o
+.PHONY : chapter04/atm_system_example/interface_machine.o
+
+# target to build an object file
+chapter04/atm_system_example/interface_machine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o
+.PHONY : chapter04/atm_system_example/interface_machine.cpp.o
+
+chapter04/atm_system_example/interface_machine.i: chapter04/atm_system_example/interface_machine.cpp.i
+.PHONY : chapter04/atm_system_example/interface_machine.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/interface_machine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.i
+.PHONY : chapter04/atm_system_example/interface_machine.cpp.i
+
+chapter04/atm_system_example/interface_machine.s: chapter04/atm_system_example/interface_machine.cpp.s
+.PHONY : chapter04/atm_system_example/interface_machine.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/interface_machine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.s
+.PHONY : chapter04/atm_system_example/interface_machine.cpp.s
+
+chapter04/atm_system_example/receiver.o: chapter04/atm_system_example/receiver.cpp.o
+.PHONY : chapter04/atm_system_example/receiver.o
+
+# target to build an object file
+chapter04/atm_system_example/receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o
+.PHONY : chapter04/atm_system_example/receiver.cpp.o
+
+chapter04/atm_system_example/receiver.i: chapter04/atm_system_example/receiver.cpp.i
+.PHONY : chapter04/atm_system_example/receiver.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.i
+.PHONY : chapter04/atm_system_example/receiver.cpp.i
+
+chapter04/atm_system_example/receiver.s: chapter04/atm_system_example/receiver.cpp.s
+.PHONY : chapter04/atm_system_example/receiver.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.s
+.PHONY : chapter04/atm_system_example/receiver.cpp.s
+
+chapter04/atm_system_example/sender.o: chapter04/atm_system_example/sender.cpp.o
+.PHONY : chapter04/atm_system_example/sender.o
+
+# target to build an object file
+chapter04/atm_system_example/sender.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o
+.PHONY : chapter04/atm_system_example/sender.cpp.o
+
+chapter04/atm_system_example/sender.i: chapter04/atm_system_example/sender.cpp.i
+.PHONY : chapter04/atm_system_example/sender.i
+
+# target to preprocess a source file
+chapter04/atm_system_example/sender.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.i
+.PHONY : chapter04/atm_system_example/sender.cpp.i
+
+chapter04/atm_system_example/sender.s: chapter04/atm_system_example/sender.cpp.s
+.PHONY : chapter04/atm_system_example/sender.s
+
+# target to generate assembly for a file
+chapter04/atm_system_example/sender.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.s
+.PHONY : chapter04/atm_system_example/sender.cpp.s
+
 chapter04/examples.o: chapter04/examples.cpp.o
 .PHONY : chapter04/examples.o
 
@@ -240,6 +408,27 @@ help:
 	@echo "... chapter03/examples_ch03.o"
 	@echo "... chapter03/examples_ch03.i"
 	@echo "... chapter03/examples_ch03.s"
+	@echo "... chapter04/atm_system_example/atm.o"
+	@echo "... chapter04/atm_system_example/atm.i"
+	@echo "... chapter04/atm_system_example/atm.s"
+	@echo "... chapter04/atm_system_example/bank_machine.o"
+	@echo "... chapter04/atm_system_example/bank_machine.i"
+	@echo "... chapter04/atm_system_example/bank_machine.s"
+	@echo "... chapter04/atm_system_example/dispatcher.o"
+	@echo "... chapter04/atm_system_example/dispatcher.i"
+	@echo "... chapter04/atm_system_example/dispatcher.s"
+	@echo "... chapter04/atm_system_example/driver.o"
+	@echo "... chapter04/atm_system_example/driver.i"
+	@echo "... chapter04/atm_system_example/driver.s"
+	@echo "... chapter04/atm_system_example/interface_machine.o"
+	@echo "... chapter04/atm_system_example/interface_machine.i"
+	@echo "... chapter04/atm_system_example/interface_machine.s"
+	@echo "... chapter04/atm_system_example/receiver.o"
+	@echo "... chapter04/atm_system_example/receiver.i"
+	@echo "... chapter04/atm_system_example/receiver.s"
+	@echo "... chapter04/atm_system_example/sender.o"
+	@echo "... chapter04/atm_system_example/sender.i"
+	@echo "... chapter04/atm_system_example/sender.s"
 	@echo "... chapter04/examples.o"
 	@echo "... chapter04/examples.i"
 	@echo "... chapter04/examples.s"
