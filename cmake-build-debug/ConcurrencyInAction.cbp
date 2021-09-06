@@ -155,6 +155,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/thread_safe_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter05/example_memory_order_seq_cst.cpp">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter05/spin_lock.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>

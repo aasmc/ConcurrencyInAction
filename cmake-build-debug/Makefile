@@ -393,6 +393,30 @@ chapter04/quick_sort_examples.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.s
 .PHONY : chapter04/quick_sort_examples.cpp.s
 
+chapter05/example_memory_order_seq_cst.o: chapter05/example_memory_order_seq_cst.cpp.o
+.PHONY : chapter05/example_memory_order_seq_cst.o
+
+# target to build an object file
+chapter05/example_memory_order_seq_cst.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.o
+.PHONY : chapter05/example_memory_order_seq_cst.cpp.o
+
+chapter05/example_memory_order_seq_cst.i: chapter05/example_memory_order_seq_cst.cpp.i
+.PHONY : chapter05/example_memory_order_seq_cst.i
+
+# target to preprocess a source file
+chapter05/example_memory_order_seq_cst.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.i
+.PHONY : chapter05/example_memory_order_seq_cst.cpp.i
+
+chapter05/example_memory_order_seq_cst.s: chapter05/example_memory_order_seq_cst.cpp.s
+.PHONY : chapter05/example_memory_order_seq_cst.s
+
+# target to generate assembly for a file
+chapter05/example_memory_order_seq_cst.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.s
+.PHONY : chapter05/example_memory_order_seq_cst.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -435,6 +459,9 @@ help:
 	@echo "... chapter04/quick_sort_examples.o"
 	@echo "... chapter04/quick_sort_examples.i"
 	@echo "... chapter04/quick_sort_examples.s"
+	@echo "... chapter05/example_memory_order_seq_cst.o"
+	@echo "... chapter05/example_memory_order_seq_cst.i"
+	@echo "... chapter05/example_memory_order_seq_cst.s"
 .PHONY : help
 
 

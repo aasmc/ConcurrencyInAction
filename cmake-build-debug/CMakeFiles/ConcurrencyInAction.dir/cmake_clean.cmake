@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o"
   "CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
   "CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
+  "CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.o"
   "ConcurrencyInAction"
   "ConcurrencyInAction.pdb"
 )

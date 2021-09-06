@@ -4,7 +4,7 @@
 #include "iostream"
 #include "thread"
 
-int main() {
+int mainAtm() {
 
     bank_machine bank;
     interface_machine interface_hardware;
