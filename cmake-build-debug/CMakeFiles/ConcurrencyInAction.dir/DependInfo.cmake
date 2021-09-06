@@ -8,19 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
-  "/Users/aasmc/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp" "/Users/aasmc/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter02/examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter02/examples.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter03/examples_ch03.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter03/examples_ch03.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/atm.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/bank_machine.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/dispatcher.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/driver.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/interface_machine.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/receiver.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/atm_system_example/sender.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o"
+  "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
