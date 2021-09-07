@@ -25,7 +25,7 @@ void read_y_then_x() {
         ++z;
 }
 
-int main() {
+int mainSEQ_CST() {
     x = false;
     y = false;
     z = 0;

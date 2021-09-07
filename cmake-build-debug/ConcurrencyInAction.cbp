@@ -161,6 +161,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter05/spin_lock.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_queue_revised.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
