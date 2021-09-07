@@ -1,6 +1,7 @@
 #include "atomic"
 #include "thread"
 #include "cassert"
+#include "chapter06/simple_queue.h"
 
 std::atomic<bool> x, y;
 std::atomic<int> z;
@@ -25,7 +26,7 @@ void read_y_then_x() {
         ++z;
 }
 
-int mainSEQ_CST() {
+int main() {
     x = false;
     y = false;
     z = 0;
