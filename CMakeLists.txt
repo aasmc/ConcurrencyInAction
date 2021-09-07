@@ -17,4 +17,4 @@ add_executable(ConcurrencyInAction chapter02/examples.cpp chapter03/thread_safe_
         chapter04/atm_system_example/atm_messages.h chapter04/atm_system_example/atm.h chapter04/atm_system_example/atm.cpp
         chapter04/atm_system_example/bank_machine.h chapter04/atm_system_example/bank_machine.cpp chapter04/atm_system_example/interface_machine.h
         chapter04/atm_system_example/interface_machine.cpp chapter04/atm_system_example/driver.cpp chapter05/spin_lock.h
-        chapter05/example_memory_order_seq_cst.cpp chapter06/thread_safe_queue_revised.h)
+        chapter05/example_memory_order_seq_cst.cpp chapter06/thread_safe_queue_revised.h chapter06/simple_queue.h)
