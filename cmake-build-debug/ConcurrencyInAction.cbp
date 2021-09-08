@@ -164,6 +164,9 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/simple_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_list.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_lookup_table.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
