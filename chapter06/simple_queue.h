@@ -48,6 +48,11 @@ private:
         return old_head;
     }
 
+    /**
+     * Ensures that the same lock is held while the data is modified by the relevant
+     * wait_pop_head() overload.
+     * @return
+     */
     std::unique_lock<std::mutex> wait_for_data() {
         std::unique_lock<std::mutex> head_lock(head_mutex);
         data_cond.wait(head_lock, [&] { return head.get() != get_tail(); });
@@ -61,7 +66,9 @@ private:
 
     std::unique_ptr<node> wait_pop_head(T &value) {
         std::unique_lock<std::mutex> head_lock(wait_for_data());
+        // first move data to the value, while still keeping the lock
         value = std::move(*head->data);
+        // second pop the head
         return pop_head();
     }
 
