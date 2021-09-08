@@ -67,4 +67,5 @@ CMakeFiles/ConcurrencyInAction.dir/chapter04/examples.cpp.o: \
 CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o: \
  ../chapter04/quick_sort_examples.cpp
 CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.o: \
+ ../chapter06/simple_queue.h \
  ../chapter05/example_memory_order_seq_cst.cpp
