@@ -21,7 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter04/quick_sort_examples.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter04/quick_sort_examples.cpp.o"
   "/home/aleksas/CLionProjects/ConcurrencyInAction/chapter05/example_memory_order_seq_cst.cpp" "/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
