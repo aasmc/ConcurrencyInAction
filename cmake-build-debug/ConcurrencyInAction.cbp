@@ -161,16 +161,19 @@
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter05/spin_lock.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/simple_queue.h">
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06_lock_based_data_structures/simple_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_list.h">
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_list.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_lookup_table.h">
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_lookup_table.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06/thread_safe_queue_revised.h">
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_queue_revised.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
+		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
 		<Unit filename="/home/aleksas/CLionProjects/ConcurrencyInAction/CMakeLists.txt">
