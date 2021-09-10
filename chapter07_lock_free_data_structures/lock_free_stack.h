@@ -14,6 +14,54 @@ private:
     };
 
     std::atomic<node *> head;
+    /**
+     * Counts the number of threads trying to pop an item off the stack.
+     * It is incremented at the beginning of pop() and decremented in
+     * try_reclaim(), which is called once the node has been removed.
+     */
+    std::atomic<unsigned> threads_in_pop;
+
+    std::atomic<node *> to_be_deleted;
+
+    static void delete_nodes(node *nodes) {
+        while (nodes) {
+            node *next = nodes->next;
+            delete nodes;
+            nodes = next;
+        }
+    }
+
+    void try_reclaim(node *old_head) {
+        if (threads_in_pop == 1) {
+            node *nodes_to_delete = to_be_deleted.exchange(nullptr);
+            if (!--threads_in_pop) {
+                delete_nodes(nodes_to_delete);
+            } else if (nodes_to_delete) {
+                chain_pending_nodes(nodes_to_delete);
+            }
+            delete old_head;
+        } else {
+            chain_pending_nodes(old_head);
+            --threads_in_pop;
+        }
+    }
+
+    void chain_pending_nodes(node *nodes) {
+        node *last = nodes;
+        while (node *const next = last->next) {
+            last = next;
+        }
+        chain_pending_nodes(nodes, last);
+    }
+
+    void chain_pending_nodes(node *first, node *last) {
+        last->next = to_be_deleted;
+        while (!to_be_deleted.compare_exchange_weak(last->next, first));
+    }
+
+    void chain_pending_node(node *n) {
+        chain_pending_nodes(n, n);
+    }
 
 public:
     void push(const T &data) {
@@ -32,6 +80,7 @@ public:
     }
 
     std::shared_ptr<T> pop() {
+        ++threads_in_pop; // increase counter before doing anything else
         node *old_head = head.load();
         // here we first check that old_head is not nullPtr (it may be nullPtr
         // if the stack is empty, e.g.), and only then do we perform compare_exchange\
@@ -40,7 +89,12 @@ public:
         // 2. Compare that head is the same as old_head
         // 3. If so, write old_head's next node to head
         while (old_head && !head.compare_exchange_weak(old_head, old_head->next));
-        return old_head ? old_head->data : std::shared_ptr<T>();
+        std::shared_ptr<T> res;
+        if (old_head) {
+            res.swap(old_head->data); // reclaim deleted nodes if you can
+        }
+        try_reclaim(old_head);
+        return res;
     }
 };
 
