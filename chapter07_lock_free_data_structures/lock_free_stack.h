@@ -32,15 +32,24 @@ private:
     }
 
     void try_reclaim(node *old_head) {
+        // this means that there's only one thread on pop() that is trying to delete a
+        // node from the stack. So it is safe to delete a node that has just been removed.
         if (threads_in_pop == 1) {
+            // claim the list of pending nodes
             node *nodes_to_delete = to_be_deleted.exchange(nullptr);
+            // means no other thread can be accessing this list of pending nodes
             if (!--threads_in_pop) {
+                // delete all nodes by iterating down the list
                 delete_nodes(nodes_to_delete);
             } else if (nodes_to_delete) {
+                // not safe to reclaim the nodes, so if there are any, we need to chain them
+                // back onto the list of nodes pending deletion. This can happen if multiple threads are
+                // accessing the data structure concurrently.
                 chain_pending_nodes(nodes_to_delete);
             }
             delete old_head;
         } else {
+            // not safe to remove the node, so need to add it to the list of nodes pending deletion.
             chain_pending_nodes(old_head);
             --threads_in_pop;
         }
