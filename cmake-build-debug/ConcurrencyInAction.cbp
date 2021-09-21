@@ -179,6 +179,9 @@
 		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack_ref_count.h">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
 		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -125,6 +125,8 @@ public:
     /** When a thread wants to delete an object, it must first check the hazard pointers
       * belonging to the other threads in the system. If none of the hazard pointers reference
       * the object, it can safely be deleted. Otherwise, it must be left until later.
+      *
+      * This is slow, because it needs to check all hazard pointers on every call to pop().
      */
     std::shared_ptr<T> pop_using_hazard_pointers() {
         std::atomic<void *> &hp = get_hazard_pointer_for_current_thread();
