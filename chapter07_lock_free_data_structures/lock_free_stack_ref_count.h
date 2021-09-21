@@ -64,6 +64,63 @@ namespace refcount {
             new_node.ptr->next = head.load();
             while (!head.compare_exchange_weak(new_node.ptr->next, new_node));
         }
+
+
+    private:
+        void increase_head_count(counted_node_ptr &old_counter) {
+            counted_node_ptr new_counter;
+            do {
+                new_counter = old_counter;
+                ++new_counter.external_count
+            } while (!head.compare_exchange_strong(old_counter, new_counter)); // 1
+            old_counter.external_count = new_counter.external_count
+        }
+
+    public:
+        std::shared_ptr<T> pop() {
+            counted_node_ptr old_head = head.load();
+            for (;;) {
+                // first increase the count of external references to the head node to indicate
+                // that we are referencing it and to ensure that it's safe to dereference it.
+                // if we dereference the pointer BEFORE increasing the ref count, another thread could free
+                // the node before you access it, leaving us with a dangling poiner.
+                increase_head_count(old_head);
+                node *const ptr = old_head.ptr; // 2
+                if (!ptr) { // means we are at the end of the list: no more entries.
+                    return std::shared_ptr<T>();
+                }
+
+                if (head.compare_exchange_strong(old_head, ptr->next)) { // 3 try to remove the node
+                    // if succeeds, we have taken the ownership of the node, and cap swap out the data
+                    // in preparation for returning it.
+                    std::shared_ptr<T> res;
+                    res.swap(ptr->data); // 4
+                    // we removed the node from the list, that's -1,
+                    // and we no longer access the node from this thread, that's -1 as well
+                    // in total it is -2
+                    const int count_increase = old_head.external_count - 2; // 5
+                    // add the external count to the internal count
+                    // after fetch_add we get the previous value stored in internal_count
+                    // if previous value in internal_count ==  -count_increase, this means,
+                    // that after adding the two values we get 0, so we can safely remove the pointer
+                    if (ptr->internal_count.fetch_add(count_increase) == -count_increase) { // 6
+                        delete ptr;
+                    }
+                    // whether we remove the node or not, we have finished processing the list,
+                    // and we can return the data.
+                    return res; // 7
+                    // if compare_exchange fails, another thread removed our node before we
+                    // did, or another thread added a new node to the stack. Either way, we need to start
+                    // again with the fresh value of head returned by the compare_exchange call. But first
+                    // we must decrease the ref count on the node we were trying to remove. This thread won't
+                    // access it anymore. If we are the last thread to hold a ref (because another thead removed it
+                    // from the stack) the internal ref count will be 1, so subtracting 1 will set
+                    // the count to zero. In this case, we can delete the node here before another loop iteration.
+                } else if (ptr->internal_count.fetch_sub(1) == 1) {
+                    delete ptr; // 8
+                }
+            }
+        }
     };
 }
 
