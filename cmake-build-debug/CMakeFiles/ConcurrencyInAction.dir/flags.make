@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++-11
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/aleksas/CLionProjects/ConcurrencyInAction/. -I/home/aleksas/CLionProjects/ConcurrencyInAction/./chapter04/atm_system_example
+CXX_INCLUDES = -I"/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/." -I"/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/./chapter04/atm_system_example"
 
 CXX_FLAGS =  -pthread -g -std=gnu++17
 

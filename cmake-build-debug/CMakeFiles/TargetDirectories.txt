@@ -1,3 +1,3 @@
-/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/aleksas/CLionProjects/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir
+/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/CMakeFiles/ConcurrencyInAction.dir
