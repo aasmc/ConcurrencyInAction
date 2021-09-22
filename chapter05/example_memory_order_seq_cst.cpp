@@ -1,7 +1,6 @@
 #include "atomic"
 #include "thread"
 #include "cassert"
-#include "chapter06/simple_queue.h"
 
 std::atomic<bool> x, y;
 std::atomic<int> z;
