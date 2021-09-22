@@ -24,9 +24,8 @@ namespace refcount {
      * increased by the value of the external count minus one and the external counter is
      * discarded. Once the internal count is equal to zero, there are no outstanding refer-
      * ences to the node and it can be safely deleted. It’s still important to use atomic opera-
-     * tions for updates of shared data. Let’s now look at an implementation of a lock-free
-     * stack that uses this technique to ensure that the nodes are reclaimed only when it’s
-     * safe to do so.
+     * tions for updates of shared data.
+     *
      * @tparam T
      */
     template<typename T>
@@ -61,8 +60,10 @@ namespace refcount {
             counted_node_ptr new_node;
             new_node.ptr = new node(data);
             new_node.external_count = 1;
-            new_node.ptr->next = head.load();
-            while (!head.compare_exchange_weak(new_node.ptr->next, new_node));
+            new_node.ptr->next = head.load(std::memory_order_relaxed);
+            while (!head.compare_exchange_weak(new_node.ptr->next, new_node,
+                                               std::memory_order_release,
+                                               std::memory_order_relaxed));
         }
 
 
@@ -72,25 +73,28 @@ namespace refcount {
             do {
                 new_counter = old_counter;
                 ++new_counter.external_count
-            } while (!head.compare_exchange_strong(old_counter, new_counter)); // 1
+            } while (!head.compare_exchange_strong(old_counter, new_counter,
+                                                   std::memory_order_acquire,
+                                                   std::memory_order_relaxed)); // 1
             old_counter.external_count = new_counter.external_count
         }
 
     public:
         std::shared_ptr<T> pop() {
-            counted_node_ptr old_head = head.load();
+            counted_node_ptr old_head = head.load(std::memory_order_relaxed);
             for (;;) {
                 // first increase the count of external references to the head node to indicate
                 // that we are referencing it and to ensure that it's safe to dereference it.
                 // if we dereference the pointer BEFORE increasing the ref count, another thread could free
-                // the node before you access it, leaving us with a dangling poiner.
+                // the node before you access it, leaving us with a dangling pointer.
                 increase_head_count(old_head);
                 node *const ptr = old_head.ptr; // 2
                 if (!ptr) { // means we are at the end of the list: no more entries.
                     return std::shared_ptr<T>();
                 }
 
-                if (head.compare_exchange_strong(old_head, ptr->next)) { // 3 try to remove the node
+                if (head.compare_exchange_strong(old_head, ptr->next,
+                                                 std::memory_order_relaxed)) { // 3 try to remove the node
                     // if succeeds, we have taken the ownership of the node, and cap swap out the data
                     // in preparation for returning it.
                     std::shared_ptr<T> res;
@@ -103,7 +107,8 @@ namespace refcount {
                     // after fetch_add we get the previous value stored in internal_count
                     // if previous value in internal_count ==  -count_increase, this means,
                     // that after adding the two values we get 0, so we can safely remove the pointer
-                    if (ptr->internal_count.fetch_add(count_increase) == -count_increase) { // 6
+                    if (ptr->internal_count.fetch_add(count_increase,
+                                                      std::memory_order_release) == -count_increase) { // 6
                         delete ptr;
                     }
                     // whether we remove the node or not, we have finished processing the list,
@@ -116,7 +121,8 @@ namespace refcount {
                     // access it anymore. If we are the last thread to hold a ref (because another thead removed it
                     // from the stack) the internal ref count will be 1, so subtracting 1 will set
                     // the count to zero. In this case, we can delete the node here before another loop iteration.
-                } else if (ptr->internal_count.fetch_sub(1) == 1) {
+                } else if (ptr->internal_count.fetch_sub(1, std::memory_order_relaxed) == 1) {
+                    ptr->internal_count.load(std::memory_order_acquire)
                     delete ptr; // 8
                 }
             }
