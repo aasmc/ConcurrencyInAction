@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"/>
+				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"/>
+				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"/>
+				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ConcurrencyInAction">
-				<Option output="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/ConcurrencyInAction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"/>
+				<Option output="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/ConcurrencyInAction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/."/>
-					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/./chapter04/atm_system_example"/>
+					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/."/>
+					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/./chapter04/atm_system_example"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward"/>
@@ -55,21 +55,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConcurrencyInAction"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConcurrencyInAction"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ConcurrencyInAction/fast">
-				<Option output="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/ConcurrencyInAction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"/>
+				<Option output="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/ConcurrencyInAction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/."/>
-					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/./chapter04/atm_system_example"/>
+					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/."/>
+					<Add directory="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/./chapter04/atm_system_example"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/x86_64-linux-gnu/c++/10"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/10/../../../../include/c++/10/backward"/>
@@ -79,113 +79,116 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConcurrencyInAction/fast"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 ConcurrencyInAction/fast"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/aleksas/Рабочий\ стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter02/examples.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter02/examples.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter03/examples_ch03.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter03/examples_ch03.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter03/hierarchical_mutex.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter03/hierarchical_mutex.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter03/thread_safe_stack.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter03/thread_safe_stack.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/atm.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/atm.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/atm.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/atm_messages.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/atm_messages.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/bank_machine.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/dispatcher.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/driver.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/interface_machine.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/message_base.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/message_base.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/receiver.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/receiver.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/receiver.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/sender.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/sender.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/sender.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/atm_system_example/template_dispatcher.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/atm_system_example/template_dispatcher.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/examples.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/examples.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/quick_sort_examples.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/quick_sort_examples.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter04/thread_safe_queue.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter04/thread_safe_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter05/example_memory_order_seq_cst.cpp">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter05/example_memory_order_seq_cst.cpp">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter05/spin_lock.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter05/spin_lock.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter06_lock_based_data_structures/simple_queue.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter06_lock_based_data_structures/simple_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_list.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_list.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_lookup_table.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_lookup_table.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_queue_revised.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter06_lock_based_data_structures/thread_safe_queue_revised.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/hazard_pointer.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter07_lock_free_data_structures/hazard_pointer.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_queue.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_queue.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack_ref_count.h">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter07_lock_free_data_structures/lock_free_stack_ref_count.h">
 			<Option target="ConcurrencyInAction"/>
 		</Unit>
-		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/CMakeLists.txt">
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/chapter08/paraller_quick_sort.cpp">
+			<Option target="ConcurrencyInAction"/>
+		</Unit>
+		<Unit filename="/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

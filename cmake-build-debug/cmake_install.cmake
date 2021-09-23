@@ -1,4 +1,4 @@
-# Install script for directory: /home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction
+# Install script for directory: /home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

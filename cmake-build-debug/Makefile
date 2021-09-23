@@ -57,10 +57,10 @@ RM = /home/aleksas/CLion-2021.2/clion-2021.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction"
+CMAKE_SOURCE_DIR = "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/CMakeFiles" "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/CMakeFiles" "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksas/Рабочий стол/ConcurrencyInAction/ConcurrencyInAction/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/aleksas/Рабочий стол/ConcurrencyInActionBook/ConcurrencyInAction/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -417,6 +417,30 @@ chapter05/example_memory_order_seq_cst.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter05/example_memory_order_seq_cst.cpp.s
 .PHONY : chapter05/example_memory_order_seq_cst.cpp.s
 
+chapter08/paraller_quick_sort.o: chapter08/paraller_quick_sort.cpp.o
+.PHONY : chapter08/paraller_quick_sort.o
+
+# target to build an object file
+chapter08/paraller_quick_sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter08/paraller_quick_sort.cpp.o
+.PHONY : chapter08/paraller_quick_sort.cpp.o
+
+chapter08/paraller_quick_sort.i: chapter08/paraller_quick_sort.cpp.i
+.PHONY : chapter08/paraller_quick_sort.i
+
+# target to preprocess a source file
+chapter08/paraller_quick_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter08/paraller_quick_sort.cpp.i
+.PHONY : chapter08/paraller_quick_sort.cpp.i
+
+chapter08/paraller_quick_sort.s: chapter08/paraller_quick_sort.cpp.s
+.PHONY : chapter08/paraller_quick_sort.s
+
+# target to generate assembly for a file
+chapter08/paraller_quick_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ConcurrencyInAction.dir/build.make CMakeFiles/ConcurrencyInAction.dir/chapter08/paraller_quick_sort.cpp.s
+.PHONY : chapter08/paraller_quick_sort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -462,6 +486,9 @@ help:
 	@echo "... chapter05/example_memory_order_seq_cst.o"
 	@echo "... chapter05/example_memory_order_seq_cst.i"
 	@echo "... chapter05/example_memory_order_seq_cst.s"
+	@echo "... chapter08/paraller_quick_sort.o"
+	@echo "... chapter08/paraller_quick_sort.i"
+	@echo "... chapter08/paraller_quick_sort.s"
 .PHONY : help
 
 
